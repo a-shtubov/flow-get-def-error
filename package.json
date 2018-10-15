@@ -1,0 +1,17 @@
+{
+  "name": "flow-get-def-error",
+  "version": "1.0.0",
+  "description": "Example of flow throwing an exception on executing get-def",
+  "main": "App.jsx",
+  "scripts": {
+    "get-def": "flow get-def App.jsx 10 34"
+  },
+  "author": "Aleksandr Shtubov",
+  "license": "ISC",
+  "devDependencies": {
+    "flow-bin": "0.83.0"
+  },
+  "dependencies": {
+    "react": "16.5.2"
+  }
+}
